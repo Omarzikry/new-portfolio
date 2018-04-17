@@ -1,0 +1,67 @@
+.text{
+    position: absolute;
+    padding-left: 9em;
+    top: 20%;
+    color: white;
+    z-index: 99;
+}
+.text h1{
+    font-size: 7rem;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+    font-family: 'futura-m';
+    letter-spacing: 0.1em;
+    font-weight: normal
+}
+.text h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    font-family: 'futura-o';
+    margin-top: 1em
+}
+.dashes{
+    position: relative;
+    .dash1{
+        display: block;
+        width: 88px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: $cool-pink;
+        margin-bottom: 1.4rem
+    }
+    .dash2{
+        display: block;
+        width: 88px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: $cool-pink;
+        margin-left: 54px
+    }
+}
+
+
+@media only screen and (max-width:770px){
+   .text{
+       padding-left: 1em;
+       top: 30%;
+       h1{
+        font-size: 4em;
+       }
+       h2{
+           font-size: 2em
+       }
+   }
+}
+@media only screen and (max-width:500px){
+    .text{
+        padding-left: 2em;
+        top: 65%;
+        h1{
+         font-size: 3em;
+        }
+        h2{
+            font-size: 1em
+        }
+    }
+ }
+ 

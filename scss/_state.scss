@@ -1,0 +1,31 @@
+.open-button{
+    .dash1{
+        transform: rotateZ(45deg) translateX(15px)
+    }
+    .dash2{
+        transform: rotateZ(-45deg) translateX(15px)
+    }
+}
+.open-nav{
+    transform: translateY(110%);
+}
+
+.nav-link-transition{
+    animation: fadeup 1.2s forwards;
+}
+
+.dash-active{
+    width: 45px !important;
+}
+
+@keyframes fadeup {
+    0%{ opacity: 0;
+        position: relative;
+        top: 2em
+    }
+    100%{
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+}

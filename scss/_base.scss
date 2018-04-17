@@ -1,0 +1,25 @@
+body{
+    background-color: $body-color;
+    width: 100%
+}
+#fullpage{
+    background-color: $body-color;
+}
+.section{
+    position: relative;
+}
+a{
+    text-decoration: none
+}
+@font-face {
+    font-family: futura-o ;
+    src: url('../fonts/Futura-Boo.woff');
+}
+@font-face {
+    font-family: futura-m ;
+    src: url('../fonts/Futura-Med.woff');
+}
+@font-face {
+    font-family: futura-l ;
+    src: url('../fonts/Futura-Bol.woff');
+}
