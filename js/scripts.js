@@ -65,7 +65,9 @@ $(document).ready(function () {
 
         //events
         onLeave: function (index, nextIndex, direction) { },
-        afterLoad: function (anchorLink, index) { },
+        afterLoad: function (section1, index) { 
+          $('.text h1').animate({right:'0'},1000)
+         },
         afterRender: function () { },
         afterResize: function () { },
         afterResponsive: function (isResponsive) { },
@@ -172,3 +174,4 @@ $('a[href*="#"]')
     }
   }
 });
+
